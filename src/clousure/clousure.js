@@ -19,3 +19,9 @@ const moneyBox = () => {
   };
   return countCoins;
 };
+
+let myMoneyBox = moneyBox();
+
+myMoneyBox(4);
+myMoneyBox(6);
+myMoneyBox(7);
